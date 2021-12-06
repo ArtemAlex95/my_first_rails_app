@@ -7,7 +7,7 @@ ruby '3.0.3'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 
 group :development, :test do
- gem 'sqlite3'
+ gem 'sqlite3', '~> 1.4.2'
 end
 
 group :production do
